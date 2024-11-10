@@ -10,7 +10,7 @@ FROM registry.access.redhat.com/ubi8-minimal:8.5-230
 ENV APPUSER appuser
 ENV UIDGID 1001
 ENV APP_BASEDIR /app
-ENV APP_PORT 8080
+ENV APP_PORT 3000
 
 # Add User
 RUN microdnf install -y shadow-utils \
